@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* Fonts  */
+@font-face {
+  font-family: "SuisseBlack";
+  src: url(fonts/SuisseEDUIntl-Black.otf) format("opentype");
+}
+@font-face {
+  font-family: "SuisseBlackItalic";
+  src: url(fonts/SuisseEDUIntl-BlackItalic.otf) format('opentype');
+}
+@font-face {
+  font-family: "SuisseBold";
+  src: url(fonts/SuisseEDUIntl-Bold.otf) format('opentype');
+}
+@font-face {
+  font-family: "SuisseBoldItalic";
+  src: url(fonts/SuisseEDUIntl-BoldItalic.otf) format('opentype');
+}
+@font-face {
+  font-family: "SuisseLight";
+  src: url(fonts/SuisseEDUIntl-Light.otf) format("opentype");
+}
+@font-face {
+  font-family: "SuisseLightItalic";
+  src: url(fonts/SuisseEDUIntl-LightItalic.otf) format('opentype');
+}
+@font-face {
+  font-family: "SuisseMedium";
+  src: url(fonts/SuisseEDUIntl-Medium.otf) format('opentype');
+}
+@font-face {
+  font-family: "SuisseMediumItalic";
+  src: url(fonts/SuisseEDUIntl-MediumItalic.otf) format('opentype');
+}
+@font-face {
+  font-family: "SuisseRegular";
+  src: url(fonts/SuisseEDUIntl-Regular.otf) format("opentype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SuisseRegularItalic";
+  src: url(fonts/SuisseEDUIntl-RegularItalic.otf) format('opentype');
+}
+@font-face {
+  font-family: "SuisseSemiBold";
+  src: url(fonts/SuisseEDUIntl-SemiBold.otf) format('opentype');
+}
+@font-face {
+  font-family: "SuisseSemiBoldItalic";
+  src: url(fonts/SuisseEDUIntl-SemiBoldItalic.otf) format('opentype');
+}
+
+@font-face {
+  font-family: "SuisseThin";
+  src: url(fonts/SuisseEDUIntl-Thin.otf) format("opentype");
+}
+@font-face {
+  font-family: "SuisseUltralight";
+  src: url(fonts/SuisseEDUIntl-Ultralight.otf) format('opentype');
+}
+@font-face {
+  font-family: "SuisseUltralightItalic";
+  src: url(fonts/SuisseEDUIntl-UltralightItalic.otf) format('opentype');
+}
+
+/* Fonts END */
+
+#footer {
+  background-image: url(./images/seniors.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  position: relative;
+  background-size: 500px;
+}
+
+@media (max-width: 768px) {
+  body {
+    margin-bottom: 300px;
+  }
+}
+
+.myButton {
+  border: 2px solid white;
+  padding: 3px 8px;
+  border-radius: 8px;
+}
+
+#hoverImg:hover {
+  content: url(./images/hoverImage.png);
+}
+
